@@ -1,5 +1,7 @@
 const Test2 = ()=>{
-    return <div></div>
+    return <div>
+        <input name="text" />
+    </div>
 }
 
 export default Test2;
