@@ -12,7 +12,7 @@ const Calculator = () => {
 
   // 키보드의 Enter 키를 감지하여 수식을 계산
   const handleKeyDown = (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter') { 
       handleClick('=');
     }
   };
